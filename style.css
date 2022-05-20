@@ -1,5 +1,5 @@
 /* add code here to make your image 300px square */
-  img { width: 300px; height: 300px;
+  img { max-width: 300px; max-height: 300px; 
 
   }
 /* add code here to change the color and font family of your name/title */
@@ -8,6 +8,18 @@ body {background-color: cadetblue;
 
 h1 {background-color:darkblue;
   color:aliceblue; font-style: oblique;
+}
+
+h2 { background-color: darkmagenta; color: lightcyan;
+
+}
+
+h3 { background-color: black; color: forestgreen;
+
+}
+
+p { background-color: black; color: white;
+
 }
 /* Bonus: change the color of your list elements */
 li { background-color: black;
